@@ -12,7 +12,3 @@ a dfkj eaf lkdmca;
 
 
 this line is added from remote repo & directly commited on github
-this line is added from local to demostrate the git stash - new local development - i dont want this to get messed up with remote repo line or code
-i also want this code or line to review my changes to the remote repo before committing
-i also want this snippet should not automatically merged , when i hit git pull
-kjascjnancmalcap
