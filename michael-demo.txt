@@ -12,3 +12,24 @@ a dfkj eaf lkdmca;
 
 
 this line is added from remote repo & directly commited on github
+
+git fetch 
+git pull
+git checkout -b <branchname>
+git switch <branchname>
+git stash 
+git stash list
+git stash apply
+git reset --soft <commitid>
+git revert <commitid>
+git checkout <commitid>
+git cherry-pick <commitid>
+git remote -v 
+
+
+
+git add .
+git commit -m "commit message"
+git pull
+git push
+git fetch
