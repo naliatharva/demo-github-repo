@@ -1,7 +1,6 @@
-FROM node:18-alpine
+FROM nginx:latest
 WORKDIR /app
-COPY package*.json ./
-RUN npm install
-COPY . .
-EXPOSE 3000
-CMD ["node", "index.js"]
+RUN apt update && apt install nginx -y
+COPY main.py .
+EXPOSE 80
+CMD ["nginx","-g", "daemon off;"]
